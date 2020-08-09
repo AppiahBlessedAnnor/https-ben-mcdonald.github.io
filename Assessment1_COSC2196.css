@@ -19,7 +19,9 @@ li,p {
   background-position: 10px, 39% ;
   background-color: 69747C;
   border: 10px solid #545454;
-  padding: 10 20 10 20
+  padding: 10 20 10 20;
+  max-width: 1000px;
+  margin: auto;
 }
 section{
 	border-top: 2px dotted #545454;
