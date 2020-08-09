@@ -3,6 +3,20 @@ html{
 	font-family: sans-serif, Arial, Helvetica;
 	font-size: 16px;
 }
+Div.BackBack{
+	position: fixed;
+}
+Div.BackBack img{
+	position:fixed;
+    top:0;
+    left:0;
+    z-index:10
+}
+div.BackBack div.html{
+	position:fixed;
+    z-index:5;
+    color:white;
+}
 h2, h3, h4{
 	font-weight: bold;
 	color:  A9CEF4;
@@ -19,7 +33,9 @@ li,p {
   background-position: 10px, 39% ;
   background-color: 69747C;
   border: 10px solid #545454;
-  padding: 10 20 10 20
+  padding: 10 20 10 20;
+  max-width: 1000px;
+  margin: auto;
 }
 section{
 	border-top: 2px dotted #545454;
